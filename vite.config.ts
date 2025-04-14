@@ -8,7 +8,7 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-  base: process.env.NODE_ENV === 'production' ? '/Vandit_Profile/' : '/',
+  base: '/Vandit_Profile/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -18,6 +18,11 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
+    },
   }
 });
