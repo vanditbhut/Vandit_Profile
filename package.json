@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vanditbhut.github.io/Vandit_Protfolio",
+  "homepage": "https://vanditbhut.github.io/Vandit_Profile",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
