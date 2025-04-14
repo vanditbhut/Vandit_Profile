@@ -8,7 +8,7 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-  base: "/Vandit_Protfolio/", // Replace with your repository name
+  base: "/Vandit_Profile/", // Replace with your repository name
   plugins: [react()],
   resolve: {
     alias: {
