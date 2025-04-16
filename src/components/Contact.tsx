@@ -1,4 +1,5 @@
 import { Mail, Linkedin, Phone, MapPin } from 'lucide-react';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -75,29 +76,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* About Contact */}
+              {/* Contact Form */}
               <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-6">Let's Connect</h3>
-                
-                <div className="space-y-4">
-                  <p className="text-gray-700">
-                    I'm currently open to new opportunities in data science and analytics. Whether you have a project in mind, want to discuss potential collaborations, or just want to say hello, I'd love to hear from you!
-                  </p>
-                  
-                  <p className="text-gray-700">
-                    Feel free to reach out through email, phone, or connect with me on LinkedIn. I'm always interested in meeting new people and exploring new opportunities in the field of data science.
-                  </p>
-                  
-                  <div className="pt-4">
-                    <a 
-                      href="mailto:vanditbhut12@gmail.com" 
-                      className="inline-flex items-center px-6 py-3 bg-portfolio-dark-blue text-white rounded-md hover:bg-portfolio-medium-blue transition-colors"
-                    >
-                      <Mail className="mr-2 h-5 w-5" />
-                      Send an Email
-                    </a>
-                  </div>
-                </div>
+                <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-6">Send a Message</h3>
+                <ContactForm />
               </div>
             </div>
           </div>
