@@ -11,9 +11,6 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <div style={{ color: 'red', fontSize: '24px', padding: '20px' }}>
-        Test - If you see this, the app is rendering
-      </div>
       <Toaster />
       <Sonner />
       <HashRouter>
