@@ -124,7 +124,8 @@ Impact & Insights:
 • Established a foundation for applying optimization strategies in mechanical systems`,
       tags: ["Python", "NumPy", "Matplotlib", "Pandas", "Optimization", "Engineering", "Statistical Analysis"],
       date: "November 2023",
-      role: "Sole Developer & Researcher"
+      role: "Sole Developer & Researcher",
+      link: "https://github.com/vanditbhut/Hydrostatic-Bearing-Optimisation"
     },
     //{
     //  title: "Academic Project Management System",
@@ -176,6 +177,17 @@ Impact & Insights:
                       </span>
                     ))}
                   </div>
+
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mb-6 text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
+                    >
+                      View Project →
+                    </a>
+                  )}
 
                   <button
                     onClick={() => toggleProject(index)}
