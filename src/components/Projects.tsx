@@ -117,7 +117,7 @@ Impact & Insights:
   - Optimized parameter neighborhoods for better exploration
 
 • Robustness Testing & Validation:
-  - Conducted 21 independent experiments per algorithm
+  - Conducted 21 independent experiments per algorithm.
   - Performed statistical testing using paired t-tests.
   - Created visualizations for convergence analysis and performance comparison
 
