@@ -1,4 +1,3 @@
-
 import { Badge } from "@/components/ui/badge";
 import { CalendarIcon, MapPin, Power } from 'lucide-react';
 
@@ -78,7 +77,7 @@ const Experience = () => {
     <section id="experience" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="section-heading">Experience</h2>
+          <h2 className="section-heading text-justify">Experience</h2>
           
           <div className="mt-10 timeline-container">
             {experiences.map((exp, index) => (
@@ -88,24 +87,24 @@ const Experience = () => {
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold text-portfolio-dark-blue">{exp.company}</h3>
-                  <h4 className="text-lg font-semibold text-portfolio-medium-blue mb-2">{exp.title}</h4>
+                  <h3 className="text-xl font-bold text-portfolio-dark-blue text-justify">{exp.company}</h3>
+                  <h4 className="text-lg font-semibold text-portfolio-medium-blue mb-3 text-justify">{exp.title}</h4>
                   
                   <div className="flex flex-wrap text-sm text-portfolio-gray mb-4 gap-y-2">
                     <div className="flex items-center mr-4">
                       <CalendarIcon size={16} className="mr-1" />
-                      <span>{exp.period}</span>
+                      <span className="text-justify">{exp.period}</span>
                     </div>
                     
                     {exp.location && (
                       <div className="flex items-center">
                         <MapPin size={16} className="mr-1" />
-                        <span>{exp.location}</span>
+                        <span className="text-justify">{exp.location}</span>
                       </div>
                     )}
                   </div>
                   
-                  <p className="mb-4 text-gray-700">{exp.description}</p>
+                  <p className="text-gray-700 text-justify mb-4">{exp.description}</p>
                   
                   <div className="flex flex-wrap gap-2">
                     {exp.skills.map((skill, i) => (

@@ -159,23 +159,23 @@ Impact & Insights:
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row justify-between items-start mb-6">
                     <div>
-                      <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-2">{project.title}</h3>
-                      <span className="text-sm text-gray-500">{project.date}</span>
+                      <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-2 text-justify">{project.title}</h3>
+                      <span className="text-sm text-gray-500 text-justify">{project.date}</span>
                     </div>
                     {project.role && (
-                      <span className="mt-2 md:mt-0 px-3 py-1 bg-portfolio-light-blue text-portfolio-dark-blue text-sm rounded-full">
+                      <span className="mt-2 md:mt-0 px-3 py-1 bg-portfolio-light-blue text-portfolio-dark-blue text-sm rounded-full text-justify">
                         {project.role}
                       </span>
                     )}
                   </div>
                   
-                  <p className="text-gray-700 mb-6 text-lg leading-relaxed">{project.shortDescription}</p>
+                  <p className="text-gray-700 mb-6 text-lg leading-relaxed text-justify">{project.shortDescription}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, i) => (
                       <span 
                         key={i}
-                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full hover:bg-portfolio-light-blue transition-colors"
+                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full hover:bg-portfolio-light-blue transition-colors text-justify"
                       >
                         {tag}
                       </span>
@@ -190,7 +190,7 @@ Impact & Insights:
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-4 py-2 bg-portfolio-medium-blue text-white rounded-md hover:bg-portfolio-dark-blue transition-colors"
                       >
-                        <span>View Project</span>
+                        <span className="text-justify">View Project</span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
@@ -203,12 +203,12 @@ Impact & Insights:
                     >
                       {expandedProjects.includes(index) ? (
                         <>
-                          <span>Show Less</span>
+                          <span className="text-justify">Show Less</span>
                           <ChevronUp className="h-4 w-4" />
                         </>
                       ) : (
                         <>
-                          <span>Show More Details</span>
+                          <span className="text-justify">Show More Details</span>
                           <ChevronDown className="h-4 w-4" />
                         </>
                       )}
@@ -217,7 +217,7 @@ Impact & Insights:
 
                   {expandedProjects.includes(index) && (
                     <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono leading-relaxed">
+                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono leading-relaxed text-justify">
                         {project.fullDescription}
                       </pre>
                     </div>

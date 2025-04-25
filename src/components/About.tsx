@@ -1,4 +1,3 @@
-
 import { GraduationCap, Briefcase, Code, Heart } from 'lucide-react';
 
 const About = () => {
@@ -6,9 +5,9 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="section-heading">About Me</h2>
+          <h2 className="section-heading text-justify">About Me</h2>
           
-          <div className="mt-8 space-y-6 text-lg text-portfolio-text">
+          <div className="mt-8 space-y-6 text-lg text-portfolio-text text-justify">
           <p style={{ textAlign: 'justify' }}>
               I am a passionate Data Science professional with a Master of Science in Data Science from Swansea University and a Bachelor of Technology in Information and Communication Technology from DA-IICT, India. My academic journey has honed my expertise in data analytics, data visualization, Power BI, statistical analysis, and machine learning,   empowering me to address complex challenges in data-driven environments.
             </p>
@@ -21,9 +20,9 @@ const About = () => {
                   <div className="w-12 h-12 bg-portfolio-light-blue rounded-full flex items-center justify-center mr-4">
                     <Briefcase className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-portfolio-dark-blue">Professional Experience</h3>
+                  <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Professional Experience</h3>
                 </div>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Currently working as a Junior Data Acquisition & Curation Scientist at Opendatabay, where I contribute to data discovery, metadata management, and quality assurance, enabling efficient integration of datasets into organizational platforms.
                 </p>
               </div>
@@ -33,9 +32,9 @@ const About = () => {
                   <div className="w-12 h-12 bg-portfolio-highlight rounded-full flex items-center justify-center mr-4">
                     <Code className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-portfolio-dark-blue">Technical Skills</h3>
+                  <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Technical Skills</h3>
                 </div>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Proficient in Python, SQL, Power BI, and AWS, with experience in machine learning algorithms, data engineering, and web development. Strong foundation in statistical analysis and data visualization.
                 </p>
               </div>
@@ -45,9 +44,9 @@ const About = () => {
                   <div className="w-12 h-12 bg-portfolio-medium-blue rounded-full flex items-center justify-center mr-4">
                     <GraduationCap className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-portfolio-dark-blue">Educational Background</h3>
+                  <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Educational Background</h3>
                 </div>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   MSc in Data Science from Swansea University and a B.Tech in ICT, providing a solid theoretical foundation combined with practical applications in data analysis and technology.
                 </p>
               </div>
@@ -57,9 +56,9 @@ const About = () => {
                   <div className="w-12 h-12 bg-portfolio-accent rounded-full flex items-center justify-center mr-4">
                     <Heart className="text-white" size={24} />
                   </div>
-                  <h3 className="text-xl font-semibold text-portfolio-dark-blue">Aspirations</h3>
+                  <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Aspirations</h3>
                 </div>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   Looking to advance my career in data science and analytics, contributing to innovative projects in healthcare, sustainability, and business optimization, while continuing to expand my expertise in cutting-edge data technologies.
                 </p>
               </div>

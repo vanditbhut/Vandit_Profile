@@ -48,26 +48,26 @@ const Education = () => {
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                   <div className="flex flex-col md:flex-row md:items-center mb-2 gap-2 md:gap-4">
                     <GraduationCap size={28} className="text-portfolio-highlight" />
-                    <h3 className="text-xl font-bold text-portfolio-dark-blue">{edu.school}</h3>
+                    <h3 className="text-xl font-bold text-portfolio-dark-blue text-justify">{edu.school}</h3>
                   </div>
                   
-                  <h4 className="text-lg font-semibold text-portfolio-medium-blue mb-3">{edu.degree}</h4>
+                  <h4 className="text-lg font-semibold text-portfolio-medium-blue mb-3 text-justify">{edu.degree}</h4>
                   
                   <div className="flex flex-wrap text-sm text-portfolio-gray mb-4 gap-y-2">
                     <div className="flex items-center mr-4">
                       <CalendarIcon size={16} className="mr-1" />
-                      <span>{edu.period}</span>
+                      <span className="text-justify">{edu.period}</span>
                     </div>
                     
                     {edu.location && (
                       <div className="flex items-center">
                         <MapPin size={16} className="mr-1" />
-                        <span>{edu.location}</span>
+                        <span className="text-justify">{edu.location}</span>
                       </div>
                     )}
                   </div>
                   
-                  <p className="text-gray-700">{edu.description}</p>
+                  <p className="text-gray-700 text-justify">{edu.description}</p>
                 </div>
               </div>
             ))}
