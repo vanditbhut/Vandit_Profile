@@ -148,63 +148,67 @@ Impact & Insights:
     <section id="projects" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="section-heading">Projects</h2>
+          <h2 className="section-heading text-4xl font-bold text-center mb-12">Projects</h2>
           
           <div className="mt-10 grid grid-cols-1 gap-8">
             {projects.map((project, index) => (
               <Card 
                 key={index}
-                className="overflow-hidden card-hover border border-gray-200"
+                className="overflow-hidden card-hover border border-gray-200 transition-all duration-300 hover:shadow-lg hover:border-portfolio-medium-blue"
               >
                 <CardContent className="p-8">
-                  <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-2xl font-semibold text-portfolio-dark-blue">{project.title}</h3>
-                    <span className="text-sm text-gray-500">{project.date}</span>
+                  <div className="flex flex-col md:flex-row justify-between items-start mb-6">
+                    <div>
+                      <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-2">{project.title}</h3>
+                      <span className="text-sm text-gray-500">{project.date}</span>
+                    </div>
+                    {project.role && (
+                      <span className="mt-2 md:mt-0 px-3 py-1 bg-portfolio-light-blue text-portfolio-dark-blue text-sm rounded-full">
+                        {project.role}
+                      </span>
+                    )}
                   </div>
                   
-                  <p className="text-gray-700 mb-4 text-lg">{project.shortDescription}</p>
-                  
-                  {project.role && (
-                    <p className="text-sm text-gray-600 mb-4">
-                      <span className="font-medium">Role:</span> {project.role}
-                    </p>
-                  )}
+                  <p className="text-gray-700 mb-6 text-lg leading-relaxed">{project.shortDescription}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, i) => (
                       <span 
                         key={i}
-                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full"
+                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full hover:bg-portfolio-light-blue transition-colors"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
 
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-4 mt-4">
                     {project.link && (
                       <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
+                        className="flex items-center gap-2 px-4 py-2 bg-portfolio-medium-blue text-white rounded-md hover:bg-portfolio-dark-blue transition-colors"
                       >
-                        View Project →
+                        <span>View Project</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
                       </a>
                     )}
 
                     <button
                       onClick={() => toggleProject(index)}
-                      className="flex items-center text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 text-portfolio-medium-blue hover:text-portfolio-dark-blue transition-colors"
                     >
                       {expandedProjects.includes(index) ? (
                         <>
-                          <span className="mr-2">Show Less</span>
+                          <span>Show Less</span>
                           <ChevronUp className="h-4 w-4" />
                         </>
                       ) : (
                         <>
-                          <span className="mr-2">Show More Details</span>
+                          <span>Show More Details</span>
                           <ChevronDown className="h-4 w-4" />
                         </>
                       )}
@@ -212,8 +216,8 @@ Impact & Insights:
                   </div>
 
                   {expandedProjects.includes(index) && (
-                    <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono">
+                    <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200">
+                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono leading-relaxed">
                         {project.fullDescription}
                       </pre>
                     </div>
