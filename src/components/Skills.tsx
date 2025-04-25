@@ -47,7 +47,7 @@ const Skills = () => {
             {skillCategories.map((category, index) => (
               <Card 
                 key={index} 
-                className="overflow-hidden card-hover border border-gray-200"
+                className="overflow-hidden card-hover border border-gray-200 bg-gray-50"
               >
                 <CardContent className="p-0">
                   <div className="p-6">

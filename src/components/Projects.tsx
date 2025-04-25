@@ -39,7 +39,7 @@ Impact:
       tags: ["SQL", "Python", "Power BI", "Data Analysis", "Sentiment Analysis", "Pandas", "NumPy", "Jupyter Notebook"],
       date: "December 2024",
       role: "Sole Data Analyst & Engineer",
-      link: "https://github.com/vanditbhut/UK-Amazon-Consumer-Trends-Analysis"
+      link: "https://github.com/vanditbhut/UK_Amazon"
     },
     {
       title: "Marvel Movie Universe (MCU) Data Analysis",
@@ -71,7 +71,7 @@ Impact & Insights:
       tags: ["Python", "AWS", "Data Visualization", "Cloud Computing", "Pandas", "Matplotlib", "Seaborn"],
       date: "December 2024",
       role: "Sole Analyst & Developer",
-      link: "https://github.com/vanditbhut/Marvel-Movie-Universe-Analysis"
+      link: "https://github.com/vanditbhut/Marvel_Movie_Universe"
     },
     {
       title: "Object Recognition",
@@ -100,7 +100,7 @@ Impact & Insights:
       tags: ["Python", "TensorFlow", "Keras", "Scikit-learn", "NumPy", "Matplotlib", "Deep Learning", "Computer Vision"],
       date: "July 2024 - September 2024",
       role: "Sole Developer & Researcher",
-      link: "https://github.com/vanditbhut/Object-Recognition-CNN"
+      link: "https://github.com/vanditbhut/Object_Recognition"
     },
     {
       title: "Hydrostatic Thrust Bearing Optimisation",
@@ -145,7 +145,7 @@ Impact & Insights:
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading text-4xl font-bold text-center mb-12">Projects</h2>
@@ -154,7 +154,7 @@ Impact & Insights:
             {projects.map((project, index) => (
               <Card 
                 key={index}
-                className="overflow-hidden card-hover border border-gray-200 transition-all duration-300 hover:shadow-lg hover:border-portfolio-medium-blue"
+                className="overflow-hidden card-hover border border-gray-200 transition-all duration-300 hover:shadow-lg hover:border-portfolio-medium-blue bg-gray-50"
               >
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row justify-between items-start mb-6">

@@ -1,12 +1,12 @@
 const Certifications = () => {
   return (
-    <section id="certifications" className="py-20 bg-white">
+    <section id="certifications" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading">Certifications</h2>
           
           <div className="mt-10">
-            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <div className="bg-white p-6 rounded-lg border border-gray-200">
               <ul className="space-y-4">               
                 <li className="flex items-start">
                   <div className="min-w-4 h-4 rounded-full bg-portfolio-highlight mt-1.5 mr-3"></div>

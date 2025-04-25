@@ -1,4 +1,3 @@
-
 import { GraduationCap, CalendarIcon, MapPin } from 'lucide-react';
 
 const Education = () => {
@@ -34,7 +33,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-white">
+    <section id="education" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading">Education</h2>
@@ -46,7 +45,7 @@ const Education = () => {
                 className="timeline-item relative mb-12 animate-fade-in"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
-                <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                   <div className="flex flex-col md:flex-row md:items-center mb-2 gap-2 md:gap-4">
                     <GraduationCap size={28} className="text-portfolio-highlight" />
                     <h3 className="text-xl font-bold text-portfolio-dark-blue">{edu.school}</h3>
