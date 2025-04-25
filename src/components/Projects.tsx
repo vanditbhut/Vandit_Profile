@@ -38,7 +38,8 @@ Impact:
 • Provided marketing teams with data-backed insights for decision-making`,
       tags: ["SQL", "Python", "Power BI", "Data Analysis", "Sentiment Analysis", "Pandas", "NumPy", "Jupyter Notebook"],
       date: "December 2024",
-      role: "Sole Data Analyst & Engineer"
+      role: "Sole Data Analyst & Engineer",
+      link: "https://github.com/vanditbhut/UK-Amazon-Consumer-Trends-Analysis"
     },
     {
       title: "Marvel Movie Universe (MCU) Data Analysis",
@@ -69,7 +70,8 @@ Impact & Insights:
 • Demonstrated the power of data science in transforming pop culture data into strategic business insights`,
       tags: ["Python", "AWS", "Data Visualization", "Cloud Computing", "Pandas", "Matplotlib", "Seaborn"],
       date: "December 2024",
-      role: "Sole Analyst & Developer"
+      role: "Sole Analyst & Developer",
+      link: "https://github.com/vanditbhut/Marvel-Movie-Universe-Analysis"
     },
     {
       title: "Object Recognition",
@@ -97,7 +99,8 @@ Impact & Insights:
 • Improved model generalizability through proper data handling and preprocessing`,
       tags: ["Python", "TensorFlow", "Keras", "Scikit-learn", "NumPy", "Matplotlib", "Deep Learning", "Computer Vision"],
       date: "July 2024 - September 2024",
-      role: "Sole Developer & Researcher"
+      role: "Sole Developer & Researcher",
+      link: "https://github.com/vanditbhut/Object-Recognition-CNN"
     },
     {
       title: "Hydrostatic Thrust Bearing Optimisation",
@@ -115,7 +118,7 @@ Impact & Insights:
 
 • Robustness Testing & Validation:
   - Conducted 21 independent experiments per algorithm
-  - Performed statistical testing using paired t-tests
+  - Performed statistical testing using paired t-tests.
   - Created visualizations for convergence analysis and performance comparison
 
 Impact & Insights:
@@ -178,33 +181,35 @@ Impact & Insights:
                     ))}
                   </div>
 
-                  {project.link && (
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block mb-6 text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
-                    >
-                      View Project →
-                    </a>
-                  )}
-
-                  <button
-                    onClick={() => toggleProject(index)}
-                    className="flex items-center text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
-                  >
-                    {expandedProjects.includes(index) ? (
-                      <>
-                        <span className="mr-2">Show Less</span>
-                        <ChevronUp className="h-4 w-4" />
-                      </>
-                    ) : (
-                      <>
-                        <span className="mr-2">Show More Details</span>
-                        <ChevronDown className="h-4 w-4" />
-                      </>
+                  <div className="flex items-center gap-4">
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
+                      >
+                        View Project →
+                      </a>
                     )}
-                  </button>
+
+                    <button
+                      onClick={() => toggleProject(index)}
+                      className="flex items-center text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
+                    >
+                      {expandedProjects.includes(index) ? (
+                        <>
+                          <span className="mr-2">Show Less</span>
+                          <ChevronUp className="h-4 w-4" />
+                        </>
+                      ) : (
+                        <>
+                          <span className="mr-2">Show More Details</span>
+                          <ChevronDown className="h-4 w-4" />
+                        </>
+                      )}
+                    </button>
+                  </div>
 
                   {expandedProjects.includes(index) && (
                     <div className="mt-4 p-4 bg-gray-50 rounded-lg">
