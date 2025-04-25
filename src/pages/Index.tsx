@@ -8,6 +8,7 @@ import Certifications from "@/components/Certifications";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Resume from "@/components/Resume";
 import { useEffect } from "react";
 
 const Index = () => {
@@ -17,17 +18,38 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <Hero />
-      <About />
-      <Education />
-      <Skills />
-      <Experience />      
-      <Projects />      
-      <Certifications />      
-      <Contact />
-      <Footer />
+      <div className="bg-white">
+        <Hero />
+      </div>
+      <div className="bg-gray-50">
+        <About />
+      </div>
+      <div className="bg-white">
+        <Education />
+      </div>
+      <div className="bg-gray-50">
+        <Skills />
+      </div>
+      <div className="bg-white">
+        <Experience />
+      </div>
+      <div className="bg-gray-50">
+        <Projects />
+      </div>
+      <div className="bg-white">
+        <Certifications />
+      </div>
+      <div className="bg-gray-50">
+        <Resume />
+      </div>
+      <div className="bg-white">
+        <Contact />
+      </div>
+      <div className="bg-gray-50">
+        <Footer />
+      </div>
     </div>
   );
 };
