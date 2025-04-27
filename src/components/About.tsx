@@ -12,7 +12,7 @@ const About = () => {
               I am a passionate Data Science professional with a Master of Science in Data Science from Swansea University and a Bachelor of Technology in Information and Communication Technology from DA-IICT, India. My academic journey has honed my expertise in data analytics, data visualization, Power BI, statistical analysis, and machine learning,   empowering me to address complex challenges in data-driven environments.
             </p>
             
-            <div className="grid grid-cols-2 gap-8 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
               <div className="bg-gray-50 p-6 rounded-lg card-hover border border-gray-100">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-portfolio-light-blue rounded-full flex items-center justify-center mr-4">
