@@ -65,9 +65,10 @@ Impact:
   - Ensured regular and reliable updates to the dataset
 
 Impact & Insights:
-• Identified increasing release frequency and box office revenue trends, proving the success of Marvel's phased release strategy
-• Revealed key character clusters and team dynamics that influence narrative arcs and marketing campaigns
-• Demonstrated the power of data science in transforming pop culture data into strategic business insights`,
+• The Marvel Cinematic Universe (MCU) has seen significant growth in movie releases, reflecting increased demand and popularity. 
+• Key characters like Iron Man and Captain America play central roles across multiple phases, highlighting their enduring appeal. 
+• Directors such as Joss Whedon and the Russo brothers have significantly influenced the franchise's creative direction. 
+• Each phase strategically builds on previous narratives while introducing new characters and storylines.`,
       tags: ["Python", "AWS", "Data Visualization", "Cloud Computing", "Pandas", "Matplotlib", "Seaborn"],
       date: "December 2024",
       role: "Sole Analyst & Developer",

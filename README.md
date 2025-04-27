@@ -1,3 +1,66 @@
+# Portfolio Website
+
+A modern, responsive portfolio website built with React, TypeScript, and CSS.
+
+## Features
+
+- Responsive design that works on all devices
+- Modern UI with smooth animations and transitions
+- Sections for About, Projects, Experience, Education, and Contact
+- Interactive project cards with expandable details
+- Clean and professional design
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+- shadcn/ui components
+
+## Getting Started
+
+1. Clone the repository:
+```sh
+git clone <YOUR_GIT_URL>
+cd <PROJECT_NAME>
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Start the development server:
+```sh
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/     # React components
+├── pages/         # Page components
+├── lib/           # Utility functions and configurations
+├── hooks/         # Custom React hooks
+└── public/        # Static assets
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+## Customization
+
+- Update personal information in the respective component files
+- Modify colors in `tailwind.config.ts`
+- Add/remove projects in `Projects.tsx`
+- Update experience and education details in their respective components
 
 **Use your preferred IDE**
 
@@ -43,5 +106,5 @@ This project is built with:
 - TypeScript
 - React
 - shadcn-ui
-- Tailwind CSS
+- CSS
 
