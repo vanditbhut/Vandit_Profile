@@ -16,27 +16,28 @@ const Projects = () => {
   const projects = [
     {
       title: "UK Amazon Consumer Trends Analysis",
-      shortDescription: "Led end-to-end analysis of UK Amazon marketplace data, processing over 1 million product records. Implemented optimized SQL queries for efficient data extraction and storage, performed data cleaning to handle missing values, and conducted sentiment analysis on customer reviews.",
+      shortDescription: "Led end-to-end analysis of UK Amazon marketplace data, processing over 1 million product records. Implemented optimized SQL queries for efficient data extraction and storage, performed data cleaning to handle missing values, and conducted analysis on customer reviews.",
       fullDescription: `Technical Details:
 • SQL Data Engineering:
   - Designed and implemented optimized SQL queries to efficiently extract structured data
   - Structured the dataset into relational tables based on product category, review metadata, and pricing info
   - Ensured scalability and performance by indexing key fields
 
-• Python-based Analysis:
-  - Cleaned and standardized messy data using pandas
+• Data Cleaning & Analysis (Python & Excel)
+  - Cleaned and standardized messy data using excel
   - Calculated sales velocity metrics to identify fast-moving products
-  - Created custom visual plots for sentiment insights
+  - Created custom visual plots for insights
 
 • Interactive Dashboard (Power BI):
   - Built multi-page dashboard visualizing sales trends, price distribution, and customer sentiment
   - Implemented interactive features for non-technical stakeholders
 
-Impact:
-• Discovered mid-range priced products had highest customer satisfaction
-• Identified seasonal sales patterns during Black Friday and Boxing Day
-• Provided marketing teams with data-backed insights for decision-making`,
-      tags: ["SQL", "Python", "Power BI", "Data Analysis", "Sentiment Analysis", "Pandas", "NumPy", "Jupyter Notebook"],
+Impact & Insights:
+• Lower-priced products consistently achieved higher customer satisfaction and greater popularity across multiple categories.
+• Popular categories for products priced low include Pet Supplies, Skin Care, Storage & Organization, and Hardware.
+• The most sought-after categories for products priced high are Fragrances, PC & Video Games, and Small Kitchen Appliances.
+• Found that average prices of best-selling products were lower than those of non-selling products`,
+      tags: ["SQL", "Python", "Power BI", "Excel", "Data Analysis", "Sentiment Analysis", "Pandas", "NumPy", "Jupyter Notebook"],
       date: "December 2024",
       role: "Sole Data Analyst & Engineer",
       link: "https://github.com/vanditbhut/UK_Amazon"
