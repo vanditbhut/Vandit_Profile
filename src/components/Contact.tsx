@@ -10,7 +10,7 @@ const Contact = () => {
             I'm currently open to new opportunities and collaborations. Feel free to reach out!
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Email Card */}
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
               <div className="flex flex-col items-center">
@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-portfolio-dark-blue mb-2">Location</h4>
                 <p className="text-portfolio-medium-blue text-center">
-                  Swansea, Wales,<br />United Kingdom
+                  United Kingdom
                 </p>
               </div>
             </div>
