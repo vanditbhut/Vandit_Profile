@@ -11,19 +11,19 @@ const Certifications = () => {
                 <li className="flex items-start">
                   <div className="min-w-4 h-4 rounded-full bg-portfolio-highlight mt-1.5 mr-3"></div>
                   <div>
-                    <h4 className="font-medium text-portfolio-dark-blue text-justify">Introduction to Data Analytics</h4>
+                    <h4 className="font-medium text-portfolio-dark-blue">Introduction to Data Analytics</h4>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <div className="min-w-4 h-4 rounded-full bg-portfolio-highlight mt-1.5 mr-3"></div>
                   <div>
-                    <h4 className="font-medium text-portfolio-dark-blue text-justify">Python for Data Science, AI, and Development</h4>
+                    <h4 className="font-medium text-portfolio-dark-blue">Python for Data Science, AI, and Development</h4>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <div className="min-w-4 h-4 rounded-full bg-portfolio-highlight mt-1.5 mr-3"></div>
                   <div>
-                    <h4 className="font-medium text-portfolio-dark-blue text-justify">Introduction to Project Management</h4>
+                    <h4 className="font-medium text-portfolio-dark-blue">Introduction to Project Management</h4>
                   </div>
                 </li>
               </ul>
