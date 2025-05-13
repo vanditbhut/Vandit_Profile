@@ -161,23 +161,23 @@ Impact & Insights:
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row justify-between items-start mb-6">
                     <div>
-                      <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-2 text-justify">{project.title}</h3>
-                      <span className="text-sm text-gray-500 text-justify">{project.date}</span>
+                      <h3 className="text-2xl font-semibold text-portfolio-dark-blue mb-2 ">{project.title}</h3>
+                      <span className="text-sm text-gray-500 ">{project.date}</span>
                     </div>
                     {project.role && (
-                      <span className="mt-2 md:mt-0 px-3 py-1 bg-portfolio-light-blue text-portfolio-dark-blue text-sm rounded-full text-justify">
+                      <span className="mt-2 md:mt-0 px-3 py-1 bg-portfolio-light-blue text-portfolio-dark-blue text-sm rounded-full ">
                         {project.role}
                       </span>
                     )}
                   </div>
                   
-                  <p className="text-gray-700 mb-6 text-lg leading-relaxed text-justify">{project.shortDescription}</p>
+                  <p className="text-gray-700 mb-6 text-lg leading-relaxed ">{project.shortDescription}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, i) => (
                       <span 
                         key={i}
-                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full hover:bg-portfolio-light-blue transition-colors text-justify"
+                        className="inline-block px-3 py-1 bg-gray-100 text-portfolio-medium-blue text-sm rounded-full hover:bg-portfolio-light-blue transition-colors "
                       >
                         {tag}
                       </span>
@@ -192,7 +192,7 @@ Impact & Insights:
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-4 py-2 bg-portfolio-medium-blue text-white rounded-md hover:bg-portfolio-dark-blue transition-colors"
                       >
-                        <span className="text-justify">View Project</span>
+                        <span className="">View Project</span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
@@ -201,16 +201,16 @@ Impact & Insights:
 
                     <button
                       onClick={() => toggleProject(index)}
-                      className="flex items-center gap-2 px-4 py-2 text-portfolio-medium-blue hover:text-portfolio-dark-blue transition-colors"
+                      className="hidden sm:flex flex items-center gap-2 px-4 py-2 text-portfolio-medium-blue hover:text-portfolio-dark-blue transition-colors"
                     >
                       {expandedProjects.includes(index) ? (
                         <>
-                          <span className="text-justify">Show Less</span>
+                          <span className="">Show Less</span>
                           <ChevronUp className="h-4 w-4" />
                         </>
                       ) : (
                         <>
-                          <span className="text-justify">Show More Details</span>
+                          <span className="">Show More Details</span>
                           <ChevronDown className="h-4 w-4" />
                         </>
                       )}
@@ -219,7 +219,7 @@ Impact & Insights:
 
                   {expandedProjects.includes(index) && (
                     <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200">
-                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono leading-relaxed text-justify">
+                      <pre className="whitespace-pre-wrap text-sm text-gray-700 font-mono leading-relaxed ">
                         {project.fullDescription}
                       </pre>
                     </div>

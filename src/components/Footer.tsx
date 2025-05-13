@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-              <div className="mb-4 md:mb-0">
+              <div className="mb-4 md:mb-0 text-center md:text-left">
                 <h2 className="text-2xl font-display font-bold">Vandit Bhut</h2>
                 <p className="text-portfolio-accent mt-1">Data Science Professional</p>
               </div>

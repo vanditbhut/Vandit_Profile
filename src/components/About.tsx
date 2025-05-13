@@ -7,8 +7,8 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading text-justify">About Me</h2>
           
-          <div className="mt-8 space-y-6 text-lg text-portfolio-text text-justify">
-            <p style={{ textAlign: 'justify' }}>
+          <div className="mt-8 space-y-6 sm:text-lg text-portfolio-text">
+            <p>
               I am a passionate Data Science professional with a Master of Science in Data Science from Swansea University and a Bachelor of Technology in Information and Communication Technology from DA-IICT, India. My academic journey has honed my expertise in data analytics, data visualization, Power BI, statistical analysis, and machine learning,   empowering me to address complex challenges in data-driven environments.
             </p>
             
