@@ -45,7 +45,7 @@ const Experience = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading text-justify">Experience</h2>
           
-          <div className="mt-10 timeline-container">
+          <div className="mt-10">
             {experiences.map((exp, index) => (
               <div 
                 key={index} 
