@@ -49,7 +49,7 @@ const Experience = () => {
             {experiences.map((exp, index) => (
               <div 
                 key={index} 
-                className="timeline-item relative mb-12 animate-fade-in"
+                className="relative mb-12 animate-fade-in"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="bg-white p-6 rounded-lg shadow-sm">
