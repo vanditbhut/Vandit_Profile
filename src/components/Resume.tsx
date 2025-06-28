@@ -37,7 +37,7 @@ const Resume = () => {
                 className="border-portfolio-medium-blue text-portfolio-medium-blue hover:bg-portfolio-light-blue px-6 py-3 rounded-md transition-colors"
               >
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1E-xVlh6Hpyfs98x0FmgRqzD1hjGTuvDa"
+                  href="https://drive.google.com/file/d/1E-xVlh6Hpyfs98x0FmgRqzD1hjGTuvDa/view?usp=sharing"
                   className="flex items-center gap-2"
                 >
                   <Download className="h-5 w-5" />
