@@ -11,7 +11,7 @@ const Resume = () => {
           <div className="flex flex-col items-center justify-center gap-6">
             <div className="text-center max-w-2xl">
               <p className="text-gray-700 text-lg mb-8">
-                Download my resume to learn more about my professional experience, skills, and achievements.
+                I'd like you to please download my resume to learn more about my professional experience, skills, and achievements.
               </p>
             </div>
 
@@ -21,7 +21,7 @@ const Resume = () => {
                 className="bg-portfolio-medium-blue hover:bg-portfolio-dark-blue text-white px-6 py-3 rounded-md transition-colors"
               >
                 <a
-                  href="https://drive.google.com/file/d/1E-xVlh6Hpyfs98x0FmgRqzD1hjGTuvDa/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1yhnsId_Icd6WuOALgotchDKIdRA2TgFq/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
