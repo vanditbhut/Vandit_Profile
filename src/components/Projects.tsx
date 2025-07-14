@@ -16,7 +16,8 @@ const Projects = () => {
   const projects = [
         {
   title: "Professional Analyst Bot: An Automated EDA Tool",
-  shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps.",
+  shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps. 
+                     link: https://data-analyst-bot.streamlit.app/",
   fullDescription: `Technical Details:
 • Back-End Development (Python):
   - Engineered the core data analysis logic using Pandas for efficient data manipulation.
@@ -41,8 +42,8 @@ Key Insights & Impact:
   tags: ["Python", "Streamlit", "Pandas", "Seaborn", "Matplotlib", "Data Analysis", "Data Visualization", "Full-Stack", "Cloud Deployment", "Git", "GitHub"],
   date: "July 2025",
   role: "Developer & Data Analyst",
-  link: "https://github.com/vanditbhut/data-analyst-bot",
-  link: "https://data-analyst-bot.streamlit.app/"
+  link: "https://github.com/vanditbhut/data-analyst-bot"
+  
 },
     {
       title: "UK Amazon Consumer Trends Analysis",
