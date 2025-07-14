@@ -14,6 +14,35 @@ const Projects = () => {
   };
 
   const projects = [
+        {
+  title: "Professional Analyst Bot: An Automated EDA Tool",
+  shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps.",
+  fullDescription: `Technical Details:
+• Back-End Development (Python):
+  - Engineered the core data analysis logic using Pandas for efficient data manipulation.
+  - Wrote functions to parse and restructure raw statistical outputs into clean, table-formatted DataFrames.
+  - Integrated Matplotlib and Seaborn to programmatically generate a variety of plots (histograms, scatter plots, heatmaps).
+
+• Front-End & UI/UX (Streamlit):
+  - Designed and built a clean, intuitive, and fully interactive user interface from the ground up using Streamlit.
+  - Implemented conditional logic to create a dynamic user experience, preventing errors by populating dropdowns based on data types from user-uploaded files.
+  - Focused on clear, professional data presentation to make insights accessible to both technical and non-technical users.
+
+• Deployment & Version Control:
+  - Managed all project dependencies using a requirements.txt file to ensure seamless and reproducible deployments.
+  - Utilized Git and GitHub for version control throughout the development lifecycle.
+  - Deployed the final application to Streamlit Cloud, making it publicly accessible and fully operational.
+
+Key Insights & Impact:
+• The application successfully automates the initial, time-consuming phase of data analysis, reducing the time from data acquisition to insight generation from hours to seconds.
+• It empowers non-technical users to perform comprehensive data analysis without writing any code.
+• The interactive plotting feature encourages deeper data exploration and hypothesis testing, leading to more robust findings.
+  `,
+  tags: ["Python", "Streamlit", "Pandas", "Seaborn", "Matplotlib", "Data Analysis", "Data Visualization", "Full-Stack", "Cloud Deployment", "Git", "GitHub"],
+  date: "July 2025",
+  role: "Sole Developer & Data Analyst",
+  link: "https://data-analyst-bot.streamlit.app/"
+}
     {
       title: "UK Amazon Consumer Trends Analysis",
       shortDescription: "Led end-to-end analysis of UK Amazon marketplace data, processing over 1 million product records. Implemented optimized SQL queries for efficient data extraction and storage, performed data cleaning to handle missing values, and conducted analysis on customer reviews.",
