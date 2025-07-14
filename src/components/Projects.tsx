@@ -40,7 +40,7 @@ Key Insights & Impact:
   `,
   tags: ["Python", "Streamlit", "Pandas", "Seaborn", "Matplotlib", "Data Analysis", "Data Visualization", "Full-Stack", "Cloud Deployment", "Git", "GitHub"],
   date: "July 2025",
-  role: "Sole Developer & Data Analyst",
+  role: "Developer & Data Analyst",
   link: "https://data-analyst-bot.streamlit.app/"
 },
     {
