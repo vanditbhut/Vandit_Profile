@@ -16,8 +16,7 @@ const Projects = () => {
   const projects = [
         {
   title: "Professional Analyst Bot: An Automated EDA Tool",
-  shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps. 
-                     link: https://data-analyst-bot.streamlit.app/",
+  shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps. link: https://data-analyst-bot.streamlit.app/",
   fullDescription: `Technical Details:
 • Back-End Development (Python):
   - Engineered the core data analysis logic using Pandas for efficient data manipulation.
