@@ -21,7 +21,7 @@ const Resume = () => {
                 className="bg-portfolio-medium-blue hover:bg-portfolio-dark-blue text-white px-6 py-3 rounded-md transition-colors"
               >
                 <a
-                  href="https://drive.google.com/file/d/1yhnsId_Icd6WuOALgotchDKIdRA2TgFq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1E-xVlh6Hpyfs98x0FmgRqzD1hjGTuvDa/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -37,7 +37,7 @@ const Resume = () => {
                 className="border-portfolio-medium-blue text-portfolio-medium-blue hover:bg-portfolio-light-blue px-6 py-3 rounded-md transition-colors"
               >
                 <a
-                  href="https://drive.google.com/file/d/1yhnsId_Icd6WuOALgotchDKIdRA2TgFq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1E-xVlh6Hpyfs98x0FmgRqzD1hjGTuvDa/view?usp=sharing"
                   className="flex items-center gap-2"
                 >
                   <Download className="h-5 w-5" />
