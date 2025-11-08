@@ -38,7 +38,7 @@ const Contact = () => {
                   href="tel:+447393065231" 
                   className="text-portfolio-medium-blue hover:text-portfolio-highlight transition-colors"
                 >
-                  +44 7393 065231
+                  +91 9998700622
                 </a>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <h4 className="text-xl font-semibold text-portfolio-dark-blue mb-2">Location</h4>
                 <p className="text-portfolio-medium-blue text-center">
-                  United Kingdom
+                  Bhavnagar, India
                 </p>
               </div>
             </div>
