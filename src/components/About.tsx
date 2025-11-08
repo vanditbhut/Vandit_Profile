@@ -56,7 +56,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Aspirations</h3>
                 </div>
                 <p className="text-gray-700 text-justify text-[15px]">
-               Open to data analytics and data science roles across India — aiming to apply data-driven insights to solve challenges in business optimisation, sustainability, and user analytics.
+               Open to data analytics and data science roles across India, aiming to apply data-driven insights to solve challenges in business optimisation, sustainability, and user analytics.
                 </p>
               </div>
             </div>
