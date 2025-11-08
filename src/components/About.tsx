@@ -9,7 +9,7 @@ const About = () => {
           
           <div className="mt-8 space-y-6 sm:text-lg text-portfolio-text">
             <p>
-              I am a passionate Data Science professional with a Master of Science in Data Science from Swansea University and a Bachelor of Technology in Information and Communication Technology from DA-IICT, India. My academic journey has honed my expertise in data analytics, data visualization, Power BI, statistical analysis, and machine learning,   empowering me to address complex challenges in data-driven environments.
+              I am a passionate Data Science professional with a Master of Science in Data Science from Swansea University and a Bachelor of Technology in Information and Communication Technology from DA-IICT, India. My academic journey has honed my expertise in data analytics, data visualisation, Power BI, statistical analysis, and machine learning,   empowering me to address complex challenges in data-driven environments.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
@@ -21,7 +21,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Professional Experience</h3>
                 </div>
                 <p className="text-gray-700 text-justify text-[15px]">
-                Currently working as a Junior Data Acquisition & Curation Scientist at Opendatabay, where I contribute to data discovery, metadata management, and quality assurance, enabling efficient integration of datasets into organizational platforms.
+                worked as a Junior Data Acquisition & Curation Scientist at Opendatabay, where I contributed to data discovery, metadata management, and quality assurance, enabling efficient integration of datasets into organisational platforms.
                 </p>
               </div>
               
@@ -33,7 +33,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Technical Skills</h3>
                 </div>
                 <p className="text-gray-700 text-justify text-[15px]">
-                Proficient in Python, SQL, Power BI, and AWS, with experience in machine learning algorithms, data engineering, and web development. Strong foundation in statistical analysis and data visualization.
+                Proficient in Python, SQL, Power BI, and AWS, with experience in machine learning algorithms, data engineering, and web development. Strong foundation in statistical analysis and data visualisation.
                 </p>
               </div>
               
@@ -57,7 +57,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-portfolio-dark-blue text-justify">Aspirations</h3>
                 </div>
                 <p className="text-gray-700 text-justify text-[15px]">
-                Looking to advance my career in data science and analytics, contributing to innovative projects in healthcare, sustainability, and business optimization, while continuing to expand my expertise in cutting-edge data technologies.
+                Looking to advance my career in data science and analytics, contributing to innovative projects in healthcare, sustainability, and business optimisation, while continuing to expand my expertise in cutting-edge data technologies.
                 </p>
               </div>
             </div>
