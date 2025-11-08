@@ -3,7 +3,7 @@ import { Linkedin, Mail, Github, ExternalLink, MessageCircle } from 'lucide-reac
 const WhatsAppButton = () => {
   return (
     <a 
-      href="https://wa.me/447393065231?text=Hello%20Vandit%20Bhut,%20I%20hope%20you%20are%20doing%20well." 
+      href="https://wa.me/919998700622?text=Hello%20Vandit%20Bhut,%20I%20hope%20you%20are%20doing%20well." 
       target="_blank" 
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 z-[9999] bg-green-500 hover:bg-green-600 text-white rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110"
