@@ -43,7 +43,7 @@ Key Insights & Impact:
   role: "Developer & Data Analyst",
   link: "https://github.com/vanditbhut/data-analyst-bot"
   
-},/*
+},*/
     {
       title: "UK Amazon Consumer Trends Analysis",
       shortDescription: "Led end-to-end analysis of UK Amazon marketplace data, processing over 1 million product records. Implemented optimized SQL queries for efficient data extraction and storage, performed data cleaning to handle missing values, and conducted analysis on customer reviews.",
