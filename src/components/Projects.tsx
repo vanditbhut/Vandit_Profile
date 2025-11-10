@@ -72,7 +72,7 @@ Impact & Insights:
       role: "Sole Data Analyst & Engineer",
       link: "https://github.com/vanditbhut/UK_Amazon"
     },
-    {
+   /* {
       title: "Marvel Movie Universe (MCU) Data Analysis",
       shortDescription: "Conducted comprehensive analysis of Marvel Cinematic Universe using cloud-based architecture. Implemented automated data retrieval with AWS Lambda, processed data on 30+ MCU movies, and created visualizations to uncover patterns in release schedules, character dynamics, and creative influences.",
       fullDescription: `Technical Details:
@@ -104,7 +104,7 @@ Impact & Insights:
       date: "December 2024",
       role: "Sole Analyst & Developer",
       link: "https://github.com/vanditbhut/Marvel_Movie_Universe"
-    },
+    },*/
     {
       title: "Object Recognition",
       shortDescription: "Developed and compared Convolutional Neural Networks (CNNs) for image recognition using the CIFAR-100 dataset, achieving over 80% accuracy through model optimization and ensemble techniques.",
@@ -134,7 +134,7 @@ Impact & Insights:
       role: "Sole Developer & Researcher",
       link: "https://github.com/vanditbhut/Object_Recognition"
     },
-    {
+   /* {
       title: "Hydrostatic Thrust Bearing Optimisation",
       shortDescription: "Developed and implemented optimization algorithms (Random Search and Simulated Annealing) to optimize hydrostatic thrust bearing designs, minimizing power losses while maintaining load-bearing capacity.",
       fullDescription: `Technical Details:
@@ -161,7 +161,7 @@ Impact & Insights:
       date: "November 2023",
       role: "Sole Developer & Researcher",
       link: "https://github.com/vanditbhut/Hydrostatic-Bearing-Optimisation"
-    },
+    },*/
     //{
     //  title: "Academic Project Management System",
     //  description: "Designed and developed a web application for managing academic projects at DA-IICT. The system allowed professors to post project opportunities and students to apply and track their progress, streamlining the project management process.",
