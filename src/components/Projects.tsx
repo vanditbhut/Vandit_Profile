@@ -14,7 +14,7 @@ const Projects = () => {
   };
 
   const projects = [
-        {
+      /*   {
   title: "Professional Analyst Bot: An Automated EDA Tool",
   shortDescription: "Developed and deployed a full-stack web application that automates Exploratory Data Analysis. Users can upload a CSV file to instantly generate interactive data visualizations, professional summary tables, and correlation heatmaps. link: https://data-analyst-bot.streamlit.app/",
   fullDescription: `Technical Details:
@@ -30,7 +30,7 @@ const Projects = () => {
 
 • Deployment & Version Control:
   - Managed all project dependencies using a requirements.txt file to ensure seamless and reproducible deployments.
-  - Utilized Git and GitHub for version control throughout the development lifecycle.
+  - Utilised Git and GitHub for version control throughout the development lifecycle.
   - Deployed the final application to Streamlit Cloud, making it publicly accessible and fully operational.
 
 Key Insights & Impact:
@@ -38,12 +38,12 @@ Key Insights & Impact:
 • It empowers non-technical users to perform comprehensive data analysis without writing any code.
 • The interactive plotting feature encourages deeper data exploration and hypothesis testing, leading to more robust findings.
   `,
-  tags: ["Python", "Streamlit", "Pandas", "Seaborn", "Matplotlib", "Data Analysis", "Data Visualization", "Full-Stack", "Cloud Deployment", "Git", "GitHub"],
+  tags: ["Python", "Streamlit", "Pandas", "Seaborn", "Matplotlib", "Data Analysis", "Data Visualisation", "Full-Stack", "Cloud Deployment", "Git", "GitHub"],
   date: "July 2025",
   role: "Developer & Data Analyst",
   link: "https://github.com/vanditbhut/data-analyst-bot"
   
-},
+},/*
     {
       title: "UK Amazon Consumer Trends Analysis",
       shortDescription: "Led end-to-end analysis of UK Amazon marketplace data, processing over 1 million product records. Implemented optimized SQL queries for efficient data extraction and storage, performed data cleaning to handle missing values, and conducted analysis on customer reviews.",
